@@ -6,7 +6,7 @@
 
 ## 代码说明
 
-+ `./Tensorflow/GraphDef`: []()
++ `./Tensorflow/GraphDef`: [Tensorflow 模型保存、节点修改以及Serving 图优化](https://mp.weixin.qq.com/s/_CYUNevd6cPJr9Qg-oD3EA)
 
 ## 公众号
 
