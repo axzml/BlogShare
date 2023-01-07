@@ -1,4 +1,5 @@
-ffusion Model) 简要介绍与源码分析
+# 扩散模型 (Diffusion Model) 简要介绍与源码分析
+
 
 @[toc]
 
