@@ -336,7 +336,7 @@ DDPM 文章以及代码的相关信息如下:
 + 第 29 行调用 `self._predict_xstart_from_eps` 函数, 利用公式 (10) 得到 $x_0 = \frac{1}{\sqrt{\bar{\alpha}_t}}(x_t - \sqrt{1 - \bar{\alpha}_t}\epsilon_t)$
 + 第 30 行调用 `self.q_posterior_mean_variance` 通过公式 (9) 得到 $\mu_\theta(x_t, x_0)  = \frac{\sqrt{\alpha_t}(1 - \bar{\alpha}_{t-1})}{1 - \bar{\alpha}_t} x_t + \frac{\sqrt{\bar{\alpha}_{t-1}}\beta_t}{1 - \bar{\alpha}_t} x_0$
 
- `self._predict_xstart_from_eps` 函数相亲如下:
+ `self._predict_xstart_from_eps` 函数详情如下:
 
 <div align=center><img src="https://img-blog.csdnimg.cn/ed36c89494f8444bb6c886e30300e64f.png" width="80%"/></div>
 
